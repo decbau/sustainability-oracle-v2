@@ -38,7 +38,7 @@ if st.button("GENERATE INTERACTIVE ANALYSIS"):
     else:
         genai.configure(api_key=api_key)
         # Using the model that worked for you!
-        model = genai.GenerativeModel('gemini-1.5-pro') 
+        model = genai.GenerativeModel('gemini-2.5-flash')
 
         with st.spinner("Oracle is auditing the data..."):
             # Extract Text
